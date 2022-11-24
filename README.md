@@ -13,6 +13,14 @@ Une fois l'installation terminée, on tape :
 ```
 sudo mv ignite /usr/local/bin/
 ```
+## III - Création de la blockchain en local
+ PS : Je me suis rendu compte que lorsque l'on créé une blockchain en utilisant le lien du github, certaines informations sont réinitialisées, donc j'ai adapté la procédure pour que vous ayez les mêmes informations que moi
+ 
+ Pour créer la blockchain en local, on va taper la commande suivante au sein du répertoire dans lequel on a installé Ignite :
+ ```
+ignite scaffold chain kuzaliwa --address-prefix kuz
+```
+ 
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
 
 ### Configure
