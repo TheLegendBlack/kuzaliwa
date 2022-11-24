@@ -18,8 +18,18 @@ sudo mv ignite /usr/local/bin/
  
  Pour créer la blockchain en local, on va taper la commande suivante au sein du répertoire dans lequel on a installé Ignite :
  ```
-ignite scaffold chain kuzaliwa --address-prefix kuz
+ignite scaffold chain github.com/TheLegendBlack/kuzaliwa --address-prefix kuz
 ```
+ Un dossier nommé 'kuzaliwa' se créé alors dans notre répertoire. On accède à ce dossier : `cd kuzaliwa`
+ 
+ Une fois dans ce dossier on va taper successivement les commandes suivantes, afin le sous-répertoire bin de l'espace de travail à notre PATH (PS : Lorsqu'on ne le fait pas, le déploiement de la blockchain en locale ne marche pas.) :
+ ```
+$ export PATH=$PATH:$(go env GOPATH)/bin
+$ export GOPATH=$(go env GOPATH)
+```
+Une fois cela fait, il nous reste qu'une seule chose à faire avant de déployer la blockchain en local, on va substituer le fichier config.yml du dossier 'kuzaliwa' par celui du github (on peut soit faire un copier-coller  et remplacer ou bien supprimer celui existant et le remplacer par celui du github).
+
+## IV - Déploiement de la blockchain en local
  
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
 
