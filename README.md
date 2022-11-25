@@ -27,7 +27,7 @@ ignite scaffold chain github.com/TheLegendBlack/kuzaliwa
 $ export PATH=$PATH:$(go env GOPATH)/bin
 $ export GOPATH=$(go env GOPATH)
 ```
-Une fois cela fait, il nous reste qu'une seule chose à faire avant de déployer la blockchain en local, on va substituer le fichier config.yml du dossier 'kuzaliwa' par celui du github (on peut soit faire un copier-coller  et remplacer ou bien supprimer celui existant et le remplacer par celui du github).
+Une fois cela fait, il nous reste qu'une seule chose à faire avant de déployer la blockchain en local, on va substituer le fichier `config.yml` du dossier 'kuzaliwa' par celui du github (on peut soit faire un copier-coller  et remplacer ou bien supprimer celui existant et le remplacer par celui du github).
 
 ## IV - Déploiement de la blockchain en local
  
