@@ -31,7 +31,22 @@ Une fois cela fait, il nous reste qu'une seule chose à faire avant de déployer
 
 ## IV - Déploiement de la blockchain en local
  
-`serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
+Afin de déployer la blockchain en local, on va utiliser la commande `serve`, on va taper :
+ ```
+ignite chain serve
+```
+Une fois cette commande exécuter, la blockchain en développement est déployé en local, le terminal nous affiche les informations concernant les comptes lors de la 1ère exécution et nous affichent les liens suivants : 
+```
+🌍 Tendermint node: http://0.0.0.0:26657
+🌍 Blockchain API: http://0.0.0.0:1317
+🌍 Token faucet: http://0.0.0.0:4500
+```
+PS : Ils ne sont accessibles que lorsque la blockchain est déployée.
+Une fois que le déploiement est exécuté, on peut plus modifier la blockchain, pour stopper ce processus et revenir à un état de modification, il faut taper `control + c` 
+
+
+
+command installs dependencies, builds, initializes, and starts your blockchain in development.
 
 ### Configure
 
