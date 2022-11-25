@@ -44,9 +44,33 @@ Une fois cette commande exécuter, la blockchain en développement est déployé
 PS : Ils ne sont accessibles que lorsque la blockchain est déployée.
 Une fois que le déploiement est exécuté, on peut plus modifier la blockchain, pour stopper ce processus et revenir à un état de modification, il faut taper `control + c` 
 
+## V - Les commandes
+ La principale commande est la commande `ignite`, elle précède la majorité des autres commandes et s'utilise de la façon suivante :
+ ```
+Usage:
+  ignite [command]
 
+Available Commands:
+  scaffold    Scaffold a new blockchain, module, message, query, and more
+  chain       Build, initialize and start a blockchain node or perform other actions on the blockchain
+  generate    Generate clients, API docs from source code
+  network     Launch a blockchain in production
+  node        Make calls to a live blockchain node
+  account     Commands for managing Ignite accounts
+  relayer     Connect blockchains by using IBC protocol
+  tools       Tools for advanced users
+  docs        Show Ignite CLI docs
+  version     Print the current build information
+  help        Help about any command
+  completion  Generate the autocompletion script for the specified shell
+```
+Afin de savoir à quoi sert une commande, il suffit de la faire succéder par `--help`:
+```
+Flags:
+  -h, --help   help for ignite
 
-command installs dependencies, builds, initializes, and starts your blockchain in development.
+Use "ignite [command] --help" for more information about a command.
+```
 
 ### Configure
 
