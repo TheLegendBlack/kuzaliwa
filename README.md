@@ -7,7 +7,7 @@ Ensuite, on va installer Ignite CLI.
 Personnellement, je me suis créé un dossier 'Blockchain' sur mon bureau et c'est dans ce dossier que je l'ai installé et qu'ensuite j'ai créé la blockchain.
 On va ouvrir le terminal, acccéder au répertoire choisi pour l'installation et taper :
 ```
-curl https://get.ignite.com/cli | bash
+curl https://get.ignite.com/cli! | bash
 ```
 Une fois l'installation terminée, on tape :
 ```
